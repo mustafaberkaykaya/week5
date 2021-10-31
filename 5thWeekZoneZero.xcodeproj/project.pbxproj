@@ -13,9 +13,16 @@
 		6A6F9146272952BC00D339C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F9144272952BC00D339C0 /* Main.storyboard */; };
 		6A6F9148272952BF00D339C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F9147272952BF00D339C0 /* Assets.xcassets */; };
 		6A6F914B272952BF00D339C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F9149272952BF00D339C0 /* LaunchScreen.storyboard */; };
+		6ACCEC92272DD3EA005E084C /* Egg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCEC91272DD3EA005E084C /* Egg.swift */; };
+		6ACCEC94272DD665005E084C /* EggView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCEC93272DD665005E084C /* EggView.swift */; };
+		6ACCEC96272DDDA2005E084C /* SoftBoiledController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCEC95272DDDA2005E084C /* SoftBoiledController.swift */; };
+		6ACCEC98272DDDC9005E084C /* NormalBoiledController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCEC97272DDDC9005E084C /* NormalBoiledController.swift */; };
+		6ACCEC9A272DDDF1005E084C /* CoddledController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCEC99272DDDF1005E084C /* CoddledController.swift */; };
+		FF5EE4526223C7E4C21B11D4 /* Pods_5thWeekZoneZero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F567A3F2016877FDDDD0F452 /* Pods_5thWeekZoneZero.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		507396C66678FF052075242B /* Pods-5thWeekZoneZero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5thWeekZoneZero.release.xcconfig"; path = "Target Support Files/Pods-5thWeekZoneZero/Pods-5thWeekZoneZero.release.xcconfig"; sourceTree = "<group>"; };
 		6A6F913B272952BC00D339C0 /* 5thWeekZoneZero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5thWeekZoneZero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6F913E272952BC00D339C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A6F9140272952BC00D339C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		6A6F9147272952BF00D339C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A6F914A272952BF00D339C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A6F914C272952BF00D339C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ACCEC91272DD3EA005E084C /* Egg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg.swift; sourceTree = "<group>"; };
+		6ACCEC93272DD665005E084C /* EggView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggView.swift; sourceTree = "<group>"; };
+		6ACCEC95272DDDA2005E084C /* SoftBoiledController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftBoiledController.swift; sourceTree = "<group>"; };
+		6ACCEC97272DDDC9005E084C /* NormalBoiledController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalBoiledController.swift; sourceTree = "<group>"; };
+		6ACCEC99272DDDF1005E084C /* CoddledController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoddledController.swift; sourceTree = "<group>"; };
+		BC64F017A62B64E989719358 /* Pods-5thWeekZoneZero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5thWeekZoneZero.debug.xcconfig"; path = "Target Support Files/Pods-5thWeekZoneZero/Pods-5thWeekZoneZero.debug.xcconfig"; sourceTree = "<group>"; };
+		F567A3F2016877FDDDD0F452 /* Pods_5thWeekZoneZero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_5thWeekZoneZero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5EE4526223C7E4C21B11D4 /* Pods_5thWeekZoneZero.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04A24FDE0EA5DDDA4486C637 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC64F017A62B64E989719358 /* Pods-5thWeekZoneZero.debug.xcconfig */,
+				507396C66678FF052075242B /* Pods-5thWeekZoneZero.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		63BB71921F2680A6FA6FB89A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F567A3F2016877FDDDD0F452 /* Pods_5thWeekZoneZero.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A6F9132272952BC00D339C0 = {
 			isa = PBXGroup;
 			children = (
 				6A6F913D272952BC00D339C0 /* 5thWeekZoneZero */,
 				6A6F913C272952BC00D339C0 /* Products */,
+				04A24FDE0EA5DDDA4486C637 /* Pods */,
+				63BB71921F2680A6FA6FB89A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,44 @@
 		6A6F913D272952BC00D339C0 /* 5thWeekZoneZero */ = {
 			isa = PBXGroup;
 			children = (
+				6ACCEC90272DD365005E084C /* Controller */,
+				6ACCEC8F272DD35E005E084C /* View */,
+				6ACCEC8E272DD358005E084C /* Model */,
 				6A6F913E272952BC00D339C0 /* AppDelegate.swift */,
 				6A6F9140272952BC00D339C0 /* SceneDelegate.swift */,
-				6A6F9142272952BC00D339C0 /* ViewController.swift */,
 				6A6F9144272952BC00D339C0 /* Main.storyboard */,
 				6A6F9147272952BF00D339C0 /* Assets.xcassets */,
 				6A6F9149272952BF00D339C0 /* LaunchScreen.storyboard */,
 				6A6F914C272952BF00D339C0 /* Info.plist */,
 			);
 			path = 5thWeekZoneZero;
+			sourceTree = "<group>";
+		};
+		6ACCEC8E272DD358005E084C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6ACCEC91272DD3EA005E084C /* Egg.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6ACCEC8F272DD35E005E084C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ACCEC93272DD665005E084C /* EggView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6ACCEC90272DD365005E084C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A6F9142272952BC00D339C0 /* ViewController.swift */,
+				6ACCEC95272DDDA2005E084C /* SoftBoiledController.swift */,
+				6ACCEC97272DDDC9005E084C /* NormalBoiledController.swift */,
+				6ACCEC99272DDDF1005E084C /* CoddledController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +137,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A6F914F272952BF00D339C0 /* Build configuration list for PBXNativeTarget "5thWeekZoneZero" */;
 			buildPhases = (
+				6E3AC218279D8256622E5DB2 /* [CP] Check Pods Manifest.lock */,
+				6A6F91522729544800D339C0 /* Run SwifLint */,
 				6A6F9137272952BC00D339C0 /* Sources */,
 				6A6F9138272952BC00D339C0 /* Frameworks */,
 				6A6F9139272952BC00D339C0 /* Resources */,
@@ -132,14 +197,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A6F91522729544800D339C0 /* Run SwifLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwifLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		6E3AC218279D8256622E5DB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-5thWeekZoneZero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A6F9137272952BC00D339C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ACCEC96272DDDA2005E084C /* SoftBoiledController.swift in Sources */,
+				6ACCEC94272DD665005E084C /* EggView.swift in Sources */,
 				6A6F9143272952BC00D339C0 /* ViewController.swift in Sources */,
 				6A6F913F272952BC00D339C0 /* AppDelegate.swift in Sources */,
+				6ACCEC98272DDDC9005E084C /* NormalBoiledController.swift in Sources */,
+				6ACCEC9A272DDDF1005E084C /* CoddledController.swift in Sources */,
 				6A6F9141272952BC00D339C0 /* SceneDelegate.swift in Sources */,
+				6ACCEC92272DD3EA005E084C /* Egg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +396,7 @@
 		};
 		6A6F9150272952BF00D339C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC64F017A62B64E989719358 /* Pods-5thWeekZoneZero.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +416,7 @@
 		};
 		6A6F9151272952BF00D339C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 507396C66678FF052075242B /* Pods-5thWeekZoneZero.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
